@@ -1,0 +1,14 @@
+:root { 
+    --brand: purple;
+}
+h1,h2 {
+    color: var(--brand);
+}
+.course-card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+}
+.course-card[data-status="full"] .status { 
+    background-color: red;
+}

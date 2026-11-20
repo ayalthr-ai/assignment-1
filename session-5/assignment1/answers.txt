@@ -1,0 +1,12 @@
+index.html
+href="style.css"
+المسار مباشر
+
+courses.html موجود داخل pages
+مسارو:
+href="../style.css"
+موجود داخل مجلد داني فلازم نرجع مجلد 
+
+selector
+.course-card[data-status="full"].status
+هذا الـ Selector يستهدف عنصر HTML الذي يحمل class باسم `course-card` وتكون قيمة الخاصية `data-status` فيه تساوي `completed`، أي أنه يطبّق التنسيق على بطاقة الكورس المكتمل فقط.
