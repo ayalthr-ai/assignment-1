@@ -1,15 +1,55 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>enquiry</title>
+<meta charset="UTF-8">
+<title>Course Enquiry</title>
 </head>
 <body>
-<nav>
-<a href="../index.html">Home</a>
-<a href="schedule.html">Schedule</a>
-<a href="enquiry.html">Enquiry</a>
-<nav>
+<h1>Enquire About a Course</h1>
+
+<form>
+
+<label for="fullName">Full Name:</label>
+<input type="text" id="fullName" name="fullName"
+ placeholder="Enter your full name"
+  autocomplete="name">
+
+<br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+
+<br><br>
+
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone">
+
+<br><br>
+
+<label for="course">Course:</label>
+<select id="course" name="course">
+<option value="">Choose a course</option>
+<option value="content">HTML Content</option>
+<option value="forms">HTML Forms</option>
+</select>
+
+<br><br>
+
+<label for="seats">Number of Seats:</label>
+<input type="number" id="seats" name="seats"
+value="1" min="1">
+
+<br><br>
+
+<label for="date">Preferred Date:</label>
+<input type="date" id="date" name="date">
+<br><br>
+
+<label for="message">Your Enquiry:</label>
+<textarea id="message" name="message" rows="5"></textarea>
+
+<br><br>
+<button type="submit">Submit</button>
+</form>
 </body>
 </html>
