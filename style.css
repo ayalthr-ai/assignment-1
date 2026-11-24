@@ -1,0 +1,35 @@
+
+.available{
+    background-color: #E5F7E8;
+    color: #237A36;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;}
+    h1{
+    color: #12546c;
+    } 
+    .primary{
+        color: #FFFFFF;
+        background-color: #12546c;
+        border-radius: 10px;
+        padding: 10px;
+    }  
+    .secondary{
+        background-color: #F4F7F8;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    p{
+        color: #5F6F78;
+    }
+
+.info-box{
+    width: 300px;
+    padding: 20px;
+    border: 2px solid;
+    background-color: #F4F7F8;
+    border-radius: 20px;
+    border-color: #12546c;
+    box-shadow: rgba(18, 84, 108, 0.15);
+
+}
