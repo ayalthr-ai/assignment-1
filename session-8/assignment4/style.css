@@ -1,0 +1,102 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8FAFC;
+    font-family: Arial, sans-serif;
+    color: #0F172A;
+    padding: 30px;
+    margin: 0;
+}
+
+h1 {
+    text-align: right;
+    font-size: 38px;
+    margin-bottom: 35px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.column {
+    background-color: #F1F5F9;
+    border: 1px solid #CBD5E1;
+    border-radius: 12px;
+    padding: 14px;
+
+    flex: 1 1 0;
+    min-width: 260px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.column-header h2 {
+    font-size: 23px;
+    margin: 0;
+}
+
+.count {
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.card h3 {
+    color: #0F172A;
+    font-size: 21px;
+    margin-top: 0;
+}
+
+.card p {
+    color: #64748B;
+    font-size: 16px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.start .count,
+.start .tag {
+    background-color: #DBEAFE;
+    color: #1D4ED8;
+}
+
+.working .count,
+.working .tag {
+    background-color: #FEF3C7;
+    color: #92400E;
+}
+
+.completed .count,
+.completed .tag {
+    background-color: #DCFCE7;
+    color: #166534;
+}
